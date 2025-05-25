@@ -1,0 +1,10 @@
+{
+    "name": "tu_proyecto/sistema_profesores",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^4.2"
+    },
+    "config": {
+        "disable-tls": true
+    }
+}

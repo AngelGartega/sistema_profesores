@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.alert.success {
+    background: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: var(--azul-unam);
+    color: white;
+    position: sticky;
+    top: 0;
+    vertical-align: middle; /* Nuevo */
+}
+
+.btn-add {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.btn-edit {
+    background: #2196F3;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-delete {
+    background: #f44336;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+input[type="text"], input[type="tel"], select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.user-header {
+    background: #2196F3;
+    padding: 15px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.user-header nav {
+    margin-top: 10px;
+}
+
+.user-header a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.user-header a:hover {
+    background: rgba(0,0,0,0.2);
+}
+
+.admin-header {
+    background: #4CAF50; /* Verde para diferenciar del usuario */
+    padding: 15px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.admin-header nav a {
+    color: white;
+    margin-right: 15px;
+}
+/* Filtros y buscador */
+.filtros {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.filtro-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.filtro-form select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.filtro-form input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+/* Botón Exportar */
+.btn-exportar {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+}
+/* Estilos para tabla de usuario */
+.tabla-consulta {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-consulta th {
+    background-color: #2196F3; /* Azul para diferenciar de admin */
+    color: white;
+    padding: 12px;
+}
+
+.tabla-consulta td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Botón de descarga para usuario */
+.user-container .acciones {
+    margin-bottom: 20px;
+    text-align: right;
+}
+/* En estilos.css */
+.selector-columnas {
+    margin: 15px 0;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.selector-columnas label {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.selector-orden {
+    margin: 10px 0;
+}
+
+.selector-orden select {
+    margin: 0 5px;
+    padding: 5px;
+}
+.brand-logo {
+    padding: 5px 0 !important; /* Espaciado vertical */
+    display: flex !important;
+    align-items: center;
+}
+
+.logo-fes {
+    height: 70px; /* Tamaño aumentado */
+    width: auto;
+    transition: all 0.3s ease; /* Efecto hover opcional */
+}
+
+.logo-fes:hover {
+    transform: scale(1.05); /* Efecto hover opcional */
+}
+.flex-container {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+.search-container .input-field {
+    margin-top: 0; /* Elimina espacio muerto */
+}
+
+.btn-action-group {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+:root {
+    --azul-unam: #003366;  /* Color principal (azul UNAM) */
+    --oro-unam: #D4AF37;   /* Color secundario (dorado UNAM) */
+    --rojo-fes: #8B0000;   /* Color acento (rojo FES Aragón) */
+}
+
+.nav-wrapper {
+    background-color: var(--azul-unam);
+    padding: 0 20px;
+}
